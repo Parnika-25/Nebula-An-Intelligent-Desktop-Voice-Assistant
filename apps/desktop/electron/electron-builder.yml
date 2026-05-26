@@ -1,0 +1,15 @@
+appId: com.nebula.ai
+productName: Nebula AI
+directories:
+  output: dist
+files:
+  - electron/**
+  - ui/dist/**
+extraResources:
+  - from: ../backend/dist/nebula_backend.exe
+    to: backend/nebula_backend.exe
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
