@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+pyttsx3
+pynput
+pyautogui
+pillow
+pytesseract
+requests
+sounddevice
+scipy
+numpy
+psutil
+pywin32
+wmi
+pyperclip
